@@ -6,8 +6,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b26815f5-e4e4-46a1-81fb-c3916f4d63c0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/RecipeApplication/Data/AppDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RecipeApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RecipeApplication/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RecipeApplication/Pages/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RecipeApplication/Pages/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecipeApplication/Pages/NewDirectory1/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RecipeApplication/Pages/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecipeApplication/Pages/NewDirectory1/_ValidationScripts.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RecipeApplication/Pages/Shared/_ValidationScripts.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecipeApplication/Pages/_ViewStart.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RecipeApplication/Pages/_ViewStart.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecipeApplication/RecipeApplication.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RecipeApplication/RecipeApplication.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +22,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/RecipeApplication/obj/Debug/net5.0/Razor/Pages/Index.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RecipeApplication/Pages/Shared/_ValidationScripts.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RecipeApplication/Pages/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RecipeApplication/Pages/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RecipeApplication/Data/AppDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RecipeApplication/Pages/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RecipeApplication/Pages/Privacy.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RecipeApplication/Pages/Privacy.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RecipeApplication/Pages/Error.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RecipeApplication/Pages/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="27F1nzMOYWCepD41i47RkFLxRsR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -27,6 +39,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -75,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1648901191726</updated>
       <workItem from="1648901197945" duration="2507000" />
-      <workItem from="1648903790755" duration="3935000" />
+      <workItem from="1648903790755" duration="5573000" />
     </task>
     <servers />
   </component>
@@ -85,7 +98,19 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
