@@ -1,19 +1,22 @@
-﻿@page
-@model RecipeApplication.Pages.Recipes.View
-
+﻿@page "{id}"
+@model RecipeApplication.Pages.Recipes.ViewModel
 @{
-    Layout = null;
+    ViewData["Title"] = Model.Recipe.Name;
 }
 
-<!DOCTYPE html>
+<h2>@Model.Recipe.Name</h2>
+<form asp-page-handler="Delete" asp-route-id="@Model.Recipe.Id">
+    <p>
+        <a asp-Page="Edit" asp-route-id="@Model.Recipe.Id" class="btn btn-primary">Edit</a>
+        <button class="btn btn-danger">Delete</button>
+    </p>
+</form>
+<p>@Model.Recipe.Method</p>
 
-<html>
-<head>
-    <title></title>
-</head>
-<body>
-<div>
-    
-</div>
-</body>
-</html>
+<dl>
+    @foreach (var item in Model.Recipe.Ingredients)
+    {
+        <dt>@item.Name</dt>
+        <dd>@item.Quantity</dd>
+    }
+</dl>

@@ -29,8 +29,9 @@ namespace RecipeApplication.Pages.Recipes
                 if (ModelState.IsValid)
                 {
                     var id = await _service.CreateRecipe(Input);
-                    throw new Exception();
-                    
+
+                    return RedirectToPage("View", new {id = id});
+
                 }
                 
             }
