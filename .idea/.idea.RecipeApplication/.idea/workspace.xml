@@ -6,16 +6,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b26815f5-e4e4-46a1-81fb-c3916f4d63c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/RecipeApplication/Models/CreateIngredientCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RecipeApplication/Models/CreateRecipeCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RecipeApplication/Models/EditRecipeBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RecipeApplication/Pages/Recipes/Create.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RecipeApplication/Pages/Recipes/_EditRecipePartial.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RecipeApplication/RecipeService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RecipeApplication/Models/RecipeDetailViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RecipeApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RecipeApplication/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RecipeApplication/Pages/Shared/_ValidationScripts.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RecipeApplication/Pages/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RecipeApplication/RecipeApplication.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RecipeApplication/RecipeApplication.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RecipeApplication/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RecipeApplication/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecipeApplication/Pages/Recipes/Create.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RecipeApplication/Pages/Recipes/Create.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecipeApplication/Pages/Recipes/View.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RecipeApplication/Pages/Recipes/View.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecipeApplication/Pages/Recipes/View.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RecipeApplication/Pages/Recipes/View.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecipeApplication/RecipeService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RecipeApplication/RecipeService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,16 +21,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/RecipeApplication/Pages/Shared/_ValidationScriptsPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RecipeApplication/Pages/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RecipeApplication/Pages/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c7788b2bc733412d8ee39c302ff7ce57139b0/2/Host.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RecipeApplication/Pages/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RecipeApplication/Pages/Privacy.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RecipeApplication/Data/AppDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RecipeApplication/Pages/Privacy.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RecipeApplication/Pages/Error.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RecipeApplication/Pages/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RecipeApplication/Pages/Shared/_ValidationScriptsPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="27F1nzMOYWCepD41i47RkFLxRsR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
